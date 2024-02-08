@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>BLOG CREATOR</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <a href="https://imgur.com/fVF7Gri"><img src="blog.jpg" title="source: imgur.com" />
+<h1> CREATE YOUR OWN BLOG </a></img>
+      </div>
+      <div class="right">
+        <label for="addTitle"><h3><b>Add Title:</b></h3></label>
+        <input type="text" id="addTitle" placeholder="Enter the title for the BLOG">
+        <br>
+        <label for ="addContent"></label>
+        <textarea id="addContent" name="addContent" rows="10" cols="50" placeholder="Enter the content for the Blog!!!">
+        </textarea>
+        <br>
+        <label><h3><b>Upload Photo </b></h3></label>
+        <input type="file" id="image_input" accept="image/*"/>
+        <label><h3><b>Upload Video</b></h3></label>
+        <input type="file" id="video_input" accept="video/*" />
+        <br>
+        <br>
+        <button id="submitButton">SUBMIT</button>
+      </div>
+    </div>
+    <div id="preview_container"></div>
+    <script src="javas.js"></script>
+  </body>
+</html>
